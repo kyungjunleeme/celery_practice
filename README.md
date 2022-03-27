@@ -33,3 +33,17 @@ https://docs.pytest.org/en/6.2.x/usage.html#specifying-tests-selecting-tests
 It's worth noting that in the above asserts, we used the .run method (rather than .delay) to run the task directly without a Celery worker.
 
 ```
+
+![image](https://user-images.githubusercontent.com/45473846/160268777-76419dc6-453c-4265-b9ea-cce1311ca2b8.png)
+
+django test 시에
+
+
+client는 따로 명시해주지 않아도, 기본적으로 사용이 가능한 것으로 보임
+
+https://docs.djangoproject.com/en/4.0/topics/testing/tools/
+
+
+ㄸㅏ로 
+ㄸㅏ로 명
+
