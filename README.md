@@ -10,4 +10,6 @@ https://testdriven.io/guides/django-celery/
             leak, never use this setting in production environments!
   warnings.warn('''Using settings.DEBUG leads to a memory
 [2022-03-27 02:29:56,395: INFO/MainProcess] celery@a23d5debf6ea ready.
+[2022-03-27 02:34:22,221: INFO/MainProcess] Received task: tasks.sample_tasks.create_task[bd43e99c-d6ca-49f0-97ea-c2d88a158544]  
+[2022-03-27 02:34:22,261: INFO/ForkPoolWorker-3] Task tasks.sample_tasks.create_task[bd43e99c-d6ca-49f0-97ea-c2d88a158544] succeeded in 0.01955945800000336s: True
 ```
