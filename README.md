@@ -13,3 +13,13 @@ https://testdriven.io/guides/django-celery/
 [2022-03-27 02:34:22,221: INFO/MainProcess] Received task: tasks.sample_tasks.create_task[bd43e99c-d6ca-49f0-97ea-c2d88a158544]  
 [2022-03-27 02:34:22,261: INFO/ForkPoolWorker-3] Task tasks.sample_tasks.create_task[bd43e99c-d6ca-49f0-97ea-c2d88a158544] succeeded in 0.01955945800000336s: True
 ```
+
+![image](https://user-images.githubusercontent.com/45473846/160268521-8dc16f55-c824-42fd-8045-b63045bad752.png)
+
+```sh
+docker-compose up -d --build --scale celery=3
+```
+
+https://github.com/docker/compose/issues/5251
+https://docs.docker.com/compose/reference/scale/
+https://docs.docker.com/compose/reference/up/
