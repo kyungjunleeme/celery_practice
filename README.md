@@ -25,6 +25,11 @@ https://docs.docker.com/compose/reference/scale/
 https://docs.docker.com/compose/reference/up/
 
 
-pytest 
+pytest -k means keyword
 
 https://docs.pytest.org/en/6.2.x/usage.html#specifying-tests-selecting-tests
+
+```
+It's worth noting that in the above asserts, we used the .run method (rather than .delay) to run the task directly without a Celery worker.
+
+```
