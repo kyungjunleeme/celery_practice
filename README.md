@@ -23,3 +23,8 @@ docker-compose up -d --build --scale celery=3
 https://github.com/docker/compose/issues/5251
 https://docs.docker.com/compose/reference/scale/
 https://docs.docker.com/compose/reference/up/
+
+
+pytest 
+
+https://docs.pytest.org/en/6.2.x/usage.html#specifying-tests-selecting-tests
