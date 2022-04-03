@@ -1,3 +1,6 @@
+# worker 내부 살펴보기
+> worker 내부에서 main process만 사용된다. (확인 필요)
+
 # serializable 관련
 https://www.oddbird.net/2017/03/20/serializing-things/
 
