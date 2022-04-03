@@ -1,3 +1,6 @@
+# serializable 관련
+https://www.oddbird.net/2017/03/20/serializing-things/
+
 # celery_practice
 celery_practice
 https://testdriven.io/guides/django-celery/
