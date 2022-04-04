@@ -1,3 +1,6 @@
+# Many Django apps need some kind of out-of-band processing.
+https://en.wikipedia.org/wiki/Out-of-band_data
+
 # worker 내부 살펴보기
 > worker 내부에서 main process만 사용된다. (확인 필요)
 
