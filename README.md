@@ -1,3 +1,7 @@
+# toptal
+https://www.toptal.com/python/orchestrating-celery-python-background-jobs
+https://www.youtube.com/watch?v=MCs5OvhV9S4
+
 # Many Django apps need some kind of out-of-band processing.
 https://en.wikipedia.org/wiki/Out-of-band_data
 
